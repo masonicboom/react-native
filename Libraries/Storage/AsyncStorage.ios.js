@@ -26,7 +26,7 @@ var RCTAsyncStorage = RCTAsyncRocksDBStorage || RCTAsyncLocalStorage;
  * of AsyncStorage directly for anything more than light usage since it
  * operates globally.
  *
- * This JS code is a simple facad over the native iOS implementation to provide
+ * This JS code is a simple facade over the native iOS implementation to provide
  * a clear JS API, real Error objects, and simple non-multi functions. Each
  * method returns a `Promise` object.
  */
